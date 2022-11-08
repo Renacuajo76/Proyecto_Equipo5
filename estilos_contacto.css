@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap');
+
+/*DROPDOWN*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li:first-child {
+    float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li font {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+/*DROPDOWN*/
+
+body{
+	background-color: #FFFFFF;
+}
+
+div.ex1{
+	position: absolute;
+	left: 3%;
+	width: 1200px;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: #A7A7A9;
+	font-size: 30px;
+	text-align: left;	
+	font-style: 'Raleway';
+}
+/*TABLA*/
+table, td, th{
+	border: 10px solid;
+	padding: 50px;
+	margin: 30px;
+	
+}
+
+th{
+	font-size: 40px;
+	font-style: bold;
+}
+
+td{
+	font-size: 20px;
+	font-style: normal;
+	vertical-align: text-top;
+}
+
+td, th{
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	font-style: "Raleway";
+}
+
+th{background-color: white;}
+
+table{
+	width: 95%;
+	border-collapse: collapse;
+}
+
+p.large{
+	font-size: 15px;
+}
+
