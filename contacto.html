@@ -6,7 +6,7 @@
 	<body>
 		<center>
 		<ul>
-			<li><a href="#">Inicio</li></a>
+			<li><a href="#"><img src="Images/logo1.png" width="110px" height="25px"></li></a>
 			<li><a href="#">Nuestros coches</li></a>
 			<li><a href="#">Seguros</li></a>
 			<li><a href="#">Sobre nosotros</li></a>
@@ -21,26 +21,94 @@
 		<table>
 			<tr>
 				<th rowspan="2"><img src="images/contacto.jpg" width="450" height="350"></th>
-				<td colspan="3">Contacta con nosotros</b><br><br>Desde nuestro equipo nos comprometemos a solucionarte 
-				cualquier duda que puedas tener sobre nuestra empresa.<br>No dudes en contactarnos tanto via email como por teléfono.</td>
+				<td colspan="3"><h1>Contacta con nosotros<br><br>Desde nuestro equipo nos comprometemos a solucionarte 
+				cualquier duda que puedas tener sobre nuestra empresa.<br>No dudes en contactarnos tanto via email como por teléfono.</td></h1>
 			</tr>
 			<tr>
-				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Correo electrónico:
-				<a href="mailto:pegasomotorsalicante@gmail.com?subject:¡información!">
-				<p class="large"><img src="images/correo.png" height="40" width="40" align="middle">
+				<td class="ex1">Correo electrónico:
+				<a href="mailto:pegasomotorsalicante@gmail.com?subject:¡información!" target="_blank">
+				<p class="large"><img src="images/correo.png" height="40" width="40" align="middle"><br>
 				&nbsp;pegasomotorsalicante@gmail.com</p>
 				 </a></td>
-				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instagram:
-				<a href="https://www.instagram.com/pegasomotors.es/">
-				<p class="large"><img src="images/instagram.png" height="40" width="40" align="middle">
+				<td class="ex1">Instagram:
+				<a href="https://www.instagram.com/pegasomotors.es/" target="_blank">
+				<p class="large"><img src="images/instagram.png" height="40" width="40" align="middle"><br>
 				&nbsp;@pegasomotors</p></a></td>
-				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitter:
-				<a href="https://www.twitter.com/pegasomotors_es/">
-				<p class="large"><img src="images/twitter.png" height="40" width="40" align="middle">
+				<td class="ex1">Twitter:
+				<a href="https://www.twitter.com/pegasomotors_es/" target="_blank">
+				<p class="large"><img src="images/twitter.png" height="40" width="40" align="middle"><br>
 				&nbsp;@pegasomotors</p></a></td>
 			</tr>
+			<tr>
+			<td rowspan="2" align="center">
+				<div class="contact_form">
+					<div class="formulario">      
+						  <p class="ex1">Formulario de contacto</p>
+							<p class="ex2">Escríbenos y en breve nos pondremos en contacto contigo</p>
+							  <form action="submeter-formulario.php" method="post">       								
+									<p class="large">
+									  <label for="nombre" class="colocar_nombre">Nombre
+										<span class="obligatorio">*</span>
+									  </label>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" 
+										placeholder="Escribe tu nombre">
+									</p>								  
+									<p class="large">
+									  <label for="email" class="colocar_email">Email
+										<span class="obligatorio">*</span>
+									  </label>
+										<input type="email" name="introducir_email" id="email" required="obligatorio" 
+										placeholder="Escribe tu Email">
+									</p>								
+									<p class="large">
+									  <label for="telefone" class="colocar_telefono">Teléfono
+									  </label>
+										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+									</p>    								  
+									<p class="large">
+									  <label for="website" class="colocar_website">Sitio web
+									  </label>
+										<input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+									</p>    								  
+									<p class="large">
+									  <label for="asunto" class="colocar_asunto">Asunto
+										<span class="obligatorio">*</span>
+									  </label>
+										<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" 
+										placeholder="Escribe un asunto">
+									</p>    								  
+									<p class="large">
+									  <label for="mensaje" class="colocar_mensaje">Mensaje
+										<span class="obligatorio">*</span>
+									  </label>                     
+												<textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" 
+												required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+									</p>                    
+								  
+									<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+									<p class="aviso">
+									  <span class="obligatorio"> * </span>los campos son obligatorios.
+									</p>          
+								
+							  </form>
+						</div>  
+					  </div>
+				</td>
+				<td colspan="3" class="ex1"><h1>D&Oacute;NDE ENCONTRARNOS<br><br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12512.653509189615!2d-0.45968135!3d38.368341799999996!2m3!1
+				f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc85d39a8ad572f4c!2sCentro%20Concertado%20de%20Ense%C3%B1anza%20Inmaculada%20Jes
+				uitas!5e0!3m2!1ses!2ses!4v1667986373062!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+				referrerpolicy="no-referrer-when-downgrade"></iframe> </td></h1>
+			
+			</tr>
+			<tr><td colspan="3" class="ex1"><img src="images/servicio.jpg" height="400" width="615"></td></tr>
+	
 		</table>
 		
+		<!--FORUMLARIO-->
+
+
 
 	
 	</body>
