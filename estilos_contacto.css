@@ -124,7 +124,8 @@ input{
   border-color: #000000; 
   margin-top: 10px;  
   padding-left: 10px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
 }
 
 
@@ -140,12 +141,14 @@ textarea{
   padding-left: 10px;
   margin-bottom: 20px; 
   padding-top: 15px; 
+  font-family: "Raleway", sans-serif;
 }
 
 
 label{
   display: block; 
-  float: center;  
+  float: center; 
+  font-family: "Raleway", sans-serif;
 }
 
 
@@ -162,6 +165,7 @@ button{
   border-radius: 10px;  
   width: 420px;   
   cursor: pointer;
+  font-family: "Raleway", sans-serif;
 }
 
 
@@ -184,7 +188,7 @@ span{
 
 
 h1{
-  font-size: 39px;  
+  font-size: 20px;  
   text-align: letf; 
   padding-bottom: 20px; 
   color: #000000;
@@ -196,13 +200,6 @@ h3{
   font-size: 16px; 
   padding-bottom: 30px;
   color: #000000;
-  font-family: "Raleway", sans-serif;
-}
-
-
-p1{
-  font-size: 14px; 
-  color: #000000; 
   font-family: "Raleway", sans-serif;
 }
 
