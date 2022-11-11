@@ -1,1 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap');
 
+body{
+	font-family: "Raleway", sans-serif;
+}
+
+/*DROPDOWN*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li:first-child {
+    float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li font {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+/*DROPDOWN*/
+
+div.ex1{
+	position: absolute;
+	left: 3%;
+	width: 1200px;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: #A7A7A9;
+	font-size: 30px;
+	text-align: left;	
+}
+
+table.table0, td, th{
+	border: 2px solid;
+	padding: 50px;
+	margin: 30px;
+}
+
+th{
+	font-size: 40px;
+	
+}
+
+td{
+	font-size: 20px;
+	font-style: normal;
+	vertical-align: text-top;
+}
+
+td, th{
+	padding: 10px;
+	text-align: left;
+}
+
+th{background-color: white;}
+
+table.table0{
+	width: 95%;
+	border-collapse: collapse;
+}
+
+div.ex2{
+	position: absolute;
+	width: 100px;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+}
+
+table.table1{
+	
+}
