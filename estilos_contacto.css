@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap');
+
+body{
+	font-family: "Raleway", sans-serif;
+}
+
+/*DROPDOWN*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li:first-child {
+    float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li font {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+/*DROPDOWN*/
+
+body{
+	background-color: #FFFFFF;
+}
+
+div.ex1{
+	position: absolute;
+	left: 3%;
+	width: 1200px;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: #A7A7A9;
+	font-size: 30px;
+	text-align: left;	
+}
+/*TABLA*/
+table, td, th{
+	border: 0px solid;
+	padding: 50px;
+	margin: 30px;
+}
+
+th{
+	font-size: 40px;
+	
+}
+
+td{
+	font-size: 20px;
+	font-style: normal;
+	vertical-align: text-top;
+}
+
+td, th{
+	padding: 10px;
+	text-align: left;
+}
+
+td.ex1{
+	text-align: center;
+}
+
+th{background-color: white;}
+
+table{
+	width: 95%;
+	border-collapse: collapse;
+}
+
+p.large{
+	font-size: 15px;
+}
+
+/*FORMULARIO*/
+
+.contact_form{  
+  
+  margin: 0px auto;
+  border-radius: 10px;  
+  padding-top: 0px;
+  padding-bottom: 0px;  
+  background-color: #ffffff; 
+  padding-left: 0px;
+}
+
+
+input{
+  background-color: #ffffff; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #000000; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+
+textarea{
+  background-color: #ffffff; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #000000; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center; 
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #000000; 
+  border-color: #000000; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #000000; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #000000;  
+}
+
+
+h1{
+  font-size: 20px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #000000;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #000000;
+}
+
+
+::-webkit-input-placeholder {
+ color: #ffffff;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #ffffff;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+/*FORMULARIO*/
+
+p.ex2{
+	font-size: 15px;
+}
+
+
+
+
+
+
