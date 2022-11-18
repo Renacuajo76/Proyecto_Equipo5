@@ -46,9 +46,6 @@ li a:hover {
 }
 /*DROPDOWN*/
 
-body{
-	background-color: #FFFFFF;
-}
 
 div.ex1{
 	position: absolute;
@@ -106,7 +103,7 @@ p.large{
   border-radius: 10px;  
   padding-top: 0px;
   padding-bottom: 0px;  
-  background-color: #ffffff; 
+  background-color: #000000; 
   padding-left: 0px;
 }
 
@@ -153,7 +150,7 @@ button{
   margin-bottom: 20px; 
   margin-top: 10px;   
   text-transform: uppercase;
-  background-color: #000000; 
+  background-color: #FFFFFF; 
   border-color: #000000; 
   border-style: solid; 
   border-radius: 10px;  
@@ -163,7 +160,7 @@ button{
 
 
 button p{
-  color: #fff; 
+  color: #000000; 
 }
 
 
@@ -182,7 +179,6 @@ h1{
   font-size: 20px;  
   text-align: letf; 
   padding-bottom: 20px; 
-  color: #000000;
 }
 
 
@@ -219,9 +215,4 @@ h3{
 p.ex2{
 	font-size: 15px;
 }
-
-
-
-
-
 
