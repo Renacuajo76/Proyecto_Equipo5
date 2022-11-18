@@ -46,54 +46,47 @@ li a:hover {
 }
 /*DROPDOWN*/
 
-div.ex1{
-	position: absolute;
-	left: 3%;
-	width: 1200px;
-	padding: 30px;
-	box-sizing: border-box;
-	background-color: #A7A7A9;
-	font-size: 30px;
-	text-align: left;	
-}
 
-table.table0, td, th{
-	border: 2px solid;
-	padding: 50px;
-	margin: 30px;
-}
-
-th{
-	font-size: 40px;
-	
-}
-
-td{
-	font-size: 20px;
-	font-style: normal;
+table, td, th{
+	border: 0px solid;
+	padding: 20px;
+	margin: 10px;
 	vertical-align: text-top;
 }
 
-td, th{
-	padding: 10px;
+th{
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+td{
+	font-size: 16px;
+	font-style: normal;
+	text-align: center;
+}
+
+td.ex1{
+	font-size: 16px;
+	font-style: normal;
 	text-align: left;
 }
 
-th{background-color: white;}
+td.name{
+	font-size: 50px;
+	padding: 100px;
+	margin: 100px;
+	vertical-align: text-top;
+}
 
-table.table0{
-	width: 95%;
+table{
+	width: 10%;
 	border-collapse: collapse;
+	vertical-align: text-top;
 }
 
-div.ex2{
-	position: absolute;
-	width: 100px;
-	padding: 30px;
-	box-sizing: border-box;
-	background-color: #FFFFFF;
+p.price{
+	font-size: 40px;
+	font-weight: bolder;
+	font-style: normal;
 }
 
-table.table1{
-	
-}
