@@ -2,7 +2,7 @@
 
 body{
 	font-family: 'Raleway';
-	background: black;
+	background-color : black;
 }
 
 .table1{
@@ -21,8 +21,6 @@ body{
 	font-family: 'Cinzel';
 }
 
-
-}
 
 .text{
 	text-align: left;	
