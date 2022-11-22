@@ -39,7 +39,6 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown{
 	display: inline-block;
-	z-index: 1000;
 }
 
 .active {
@@ -65,6 +64,7 @@ li.dropdown{
 
 .dropdown:hover .dropdown-content{
 	display: block;
+	 z-index: 999;
 }
 
 .order {
