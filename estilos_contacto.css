@@ -248,3 +248,8 @@ img.ex1 {
 p.ex1{
   font-size:40;
 }
+
+a {
+  color: white;
+  background-color: black;
+}
